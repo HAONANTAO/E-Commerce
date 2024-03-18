@@ -10,10 +10,7 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li>
-          Shop
-          <hr></hr>
-        </li>
+        <li>Shop</li>
         <li>Men</li>
         <li>Women</li>
         <li>Child</li>
