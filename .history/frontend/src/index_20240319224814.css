@@ -11,10 +11,6 @@ body {
   font-family: "Kadwa", serif;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-} */
 .gradient-background {
   background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
 }
