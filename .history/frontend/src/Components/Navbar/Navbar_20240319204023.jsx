@@ -36,9 +36,9 @@ const Navbar = () => {
         </li>
         <li
           onClick={() => {
-            setMenu("Kids");
+            setMenu("Child");
           }}>
-          Kids
+          Child
           {menu === "Kids" ? <hr /> : <></>}
         </li>
       </ul>
