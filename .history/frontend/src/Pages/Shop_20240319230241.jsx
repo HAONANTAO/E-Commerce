@@ -9,7 +9,7 @@ const Shop = () => {
       <Hero></Hero>
       <Popular />
       <Offers />
-      <NewCollections />
+      <NewCollections/>
     </div>
   );
 };
