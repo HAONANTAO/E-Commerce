@@ -20,7 +20,7 @@
   /* 删除线 */
   text-decoration: line-through;
 }
-.item:hover {
+.item:hover{
   transform: scale(1.05);
-  transition: 0.5s;
+  transition:0.
 }

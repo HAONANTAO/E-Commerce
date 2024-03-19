@@ -17,10 +17,5 @@
   color: #8c8c8c;
   font-size: 18px;
   font-weight: 500;
-  /* 删除线 */
-  text-decoration: line-through;
-}
-.item:hover {
-  transform: scale(1.05);
-  transition: 0.5s;
+  text-decoration: line;
 }
