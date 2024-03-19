@@ -6,6 +6,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
+          {" "}
           <Navbar></Navbar>
           <Route></Route>
         </Routes>

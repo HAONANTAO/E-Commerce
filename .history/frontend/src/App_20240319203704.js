@@ -5,10 +5,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Navbar></Navbar>
-          <Route></Route>
-        </Routes>
+      <Routes>
+        <Route
+      </Routes>
+        <Navbar></Navbar>
       </BrowserRouter>
     </>
   );
