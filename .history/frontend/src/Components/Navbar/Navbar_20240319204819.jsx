@@ -18,29 +18,29 @@ const Navbar = () => {
             // ev.target.textContent
             setMenu("Shop");
           }}>
-          <Link to="/">Shop</Link>
+          <Link>Shop</Link>
           {menu === "Shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Men");
           }}>
-          <Link to="/mens"> Men</Link>
-
+          <Link>Shop</Link>
+          Men
           {menu === "Men" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Women");
           }}>
-          <Link to="/womens"> Women</Link>
+          Women
           {menu === "Women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Kids");
           }}>
-          <Link to="/kids"> Kids</Link>
+          Kids
           {menu === "Kids" ? <hr /> : <></>}
         </li>
       </ul>

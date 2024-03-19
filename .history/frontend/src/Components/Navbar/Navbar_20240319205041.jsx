@@ -40,7 +40,7 @@ const Navbar = () => {
           onClick={() => {
             setMenu("Kids");
           }}>
-          <Link to="/kids"> Kids</Link>
+          <Link to="/Kids"> Kids</Link>
           {menu === "Kids" ? <hr /> : <></>}
         </li>
       </ul>

@@ -3,7 +3,7 @@ import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import Link from "react-router-dom";
 const Navbar = () => {
   const [menu, setMenu] = useState("shop");
   return (
@@ -18,29 +18,28 @@ const Navbar = () => {
             // ev.target.textContent
             setMenu("Shop");
           }}>
-          <Link to="/">Shop</Link>
+          <Link>Shop</Link>
           {menu === "Shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Men");
           }}>
-          <Link to="/mens"> Men</Link>
-
+          Men
           {menu === "Men" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Women");
           }}>
-          <Link to="/womens"> Women</Link>
+          Women
           {menu === "Women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Kids");
           }}>
-          <Link to="/kids"> Kids</Link>
+          Kids
           {menu === "Kids" ? <hr /> : <></>}
         </li>
       </ul>

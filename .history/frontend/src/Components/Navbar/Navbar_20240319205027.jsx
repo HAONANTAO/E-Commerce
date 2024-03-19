@@ -33,14 +33,14 @@ const Navbar = () => {
           onClick={() => {
             setMenu("Women");
           }}>
-          <Link to="/womens"> Women</Link>
+          <Link> Women</Link>
           {menu === "Women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Kids");
           }}>
-          <Link to="/kids"> Kids</Link>
+          <Link> Kids</Link>
           {menu === "Kids" ? <hr /> : <></>}
         </li>
       </ul>
