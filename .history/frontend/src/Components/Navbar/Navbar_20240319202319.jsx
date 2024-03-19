@@ -39,7 +39,7 @@ const Navbar = () => {
             setMenu("Child");
           }}>
           Child
-          {menu === "Child" ? <hr /> : <></>}
+          {menu === "Women" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">

@@ -24,22 +24,19 @@ const Navbar = () => {
           onClick={() => {
             setMenu("Men");
           }}>
-          Men
-          {menu === "Men" ? <hr /> : <></>}
+          Men {menu === "Men" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Women");
           }}>
           Women
-          {menu === "Women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Child");
           }}>
           Child
-          {menu === "Child" ? <hr /> : <></>}
         </li>
       </ul>
       <div className="nav-login-cart">
