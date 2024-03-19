@@ -18,19 +18,14 @@ const Navbar = () => {
             // ev.target.textContent
             setMenu("Shop");
           }}>
-          <Link to="/" style={{ textDecoration: "none" }}>
-            Shop
-          </Link>
+          <Link to="/" style={{ text-decoration: none}}>Shop</Link>
           {menu === "Shop" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Men");
           }}>
-          <Link to="/mens" style={{ textDecoration: "none" }}>
-            {" "}
-            Men
-          </Link>
+          <Link to="/mens"> Men</Link>
 
           {menu === "Men" ? <hr /> : <></>}
         </li>
@@ -38,20 +33,14 @@ const Navbar = () => {
           onClick={() => {
             setMenu("Women");
           }}>
-          <Link to="/womens" style={{ textDecoration: "none" }}>
-            {" "}
-            Women
-          </Link>
+          <Link to="/womens"> Women</Link>
           {menu === "Women" ? <hr /> : <></>}
         </li>
         <li
           onClick={() => {
             setMenu("Kids");
           }}>
-          <Link to="/kids" style={{ textDecoration: "none" }}>
-            {" "}
-            Kids
-          </Link>
+          <Link to="/kids"> Kids</Link>
           {menu === "Kids" ? <hr /> : <></>}
         </li>
       </ul>
