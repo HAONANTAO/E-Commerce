@@ -13,31 +13,25 @@ const Navbar = () => {
       </div>
       <ul className="nav-menu">
         <li
-          onClick={() => {
-            // ev.target.textContent
-            setMenu("Shop");
+          onClick={(ev) => {
+            setMenu(ev.target.textContent);
           }}>
           Shop
           <hr />
         </li>
         <li
-          onClick={() => {
-            setMenu("Men");
+          onClick={(ev) => {
+            setMenu(ev.target.textContent);
           }}>
           Men
         </li>
         <li
-          onClick={() => {
-            setMenu("Women");
+          onClick={(ev) => {
+            setMenu(ev.target.textContent);
           }}>
           Women
         </li>
-        <li
-          onClick={() => {
-            setMenu("Child");
-          }}>
-          Child
-        </li>
+        <li>Child</li>
       </ul>
       <div className="nav-login-cart">
         <button>Login</button>

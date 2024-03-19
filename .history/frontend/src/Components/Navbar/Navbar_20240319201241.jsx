@@ -4,7 +4,7 @@ import logo from "../Assets/logo.png";
 import cart_icon from "../Assets/cart_icon.png";
 import { useState } from "react";
 const Navbar = () => {
-  const [menu, setMenu] = useState("shop");
+  const [state, setstate] = useState("shop");
   return (
     <div className="navbar">
       <div className="nav-logo">
@@ -12,32 +12,13 @@ const Navbar = () => {
         <p>SHOPPER</p>
       </div>
       <ul className="nav-menu">
-        <li
-          onClick={() => {
-            // ev.target.textContent
-            setMenu("Shop");
-          }}>
+        <li>
           Shop
-          <hr />
+          <hr></hr>
         </li>
-        <li
-          onClick={() => {
-            setMenu("Men");
-          }}>
-          Men
-        </li>
-        <li
-          onClick={() => {
-            setMenu("Women");
-          }}>
-          Women
-        </li>
-        <li
-          onClick={() => {
-            setMenu("Child");
-          }}>
-          Child
-        </li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Child</li>
       </ul>
       <div className="nav-login-cart">
         <button>Login</button>

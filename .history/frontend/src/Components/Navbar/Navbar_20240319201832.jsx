@@ -33,8 +33,8 @@ const Navbar = () => {
           Women
         </li>
         <li
-          onClick={() => {
-            setMenu("Child");
+          onClick={(ev) => {
+            setMenu(ev.target.textContent);
           }}>
           Child
         </li>

@@ -34,7 +34,7 @@ const Navbar = () => {
         </li>
         <li
           onClick={() => {
-            setMenu("Child");
+            setMenu(ev.target.textContent);
           }}>
           Child
         </li>

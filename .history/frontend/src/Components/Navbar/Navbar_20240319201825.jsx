@@ -27,14 +27,14 @@ const Navbar = () => {
           Men
         </li>
         <li
-          onClick={() => {
-            setMenu("Women");
+          onClick={(ev) => {
+            setMenu(ev.target.textContent);
           }}>
           Women
         </li>
         <li
-          onClick={() => {
-            setMenu("Child");
+          onClick={(ev) => {
+            setMenu(ev.target.textContent);
           }}>
           Child
         </li>
