@@ -49,7 +49,7 @@ const Navbar = () => {
           <button>Login</button>
         </Link>
         <Link to="/cart">
-          <img src={cart_icon} alt="cart_icon" />
+          <img src={cart_icon} alt="cart_icon" />{" "}
         </Link>
         <div className="nav-cart-count">0</div>
       </div>

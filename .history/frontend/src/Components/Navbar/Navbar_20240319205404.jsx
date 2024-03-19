@@ -45,11 +45,10 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="nav-login-cart">
-        <Link to="/login">
+        <Link to="">
           <button>Login</button>
         </Link>
-        <Link to="/cart">
-          <img src={cart_icon} alt="cart_icon" />
+        <Link>
         </Link>
         <div className="nav-cart-count">0</div>
       </div>
